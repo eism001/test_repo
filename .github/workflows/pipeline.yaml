@@ -53,6 +53,8 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: Test-Results
+      - name: Run git init
+        run: git init
       - name: Test
         run: |
           ls -la 
@@ -72,6 +74,5 @@ jobs:
         with:
           name: JEST Tests
           path: '**/TEST-*.xml'
-          reporter: jest-junit
-          max-annotations: '0'
+          reporter: java-junit
 
