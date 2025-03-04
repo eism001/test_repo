@@ -12,7 +12,9 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Test
-        run: docker run hello-world
+        run: pwd
+      - name: Test1
+        run: ls -la      
         
   build_app:
     name: Anwendung Bauen
@@ -29,5 +31,7 @@ jobs:
           distribution: 'temurin'
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
-      - name: Test
-        run: docker ps
+      - name: Test1
+        run: ls -la      
+      - name: Test2
+        run: ls -la      
