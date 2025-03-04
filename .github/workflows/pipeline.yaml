@@ -8,7 +8,7 @@ on:
 jobs:
   build_app:
     name: Anwendung Bauen
-    container: gradle:7-jdk8
+    container: docker:dind
     runs-on: self-hosted
     
     steps:
