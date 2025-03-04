@@ -1,0 +1,25 @@
+name: Build und Push zur GitHub Container Registry
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_app:
+    name: Anwendung Bauen
+    runs-on: ubuntu-latest
+    container: gradle:7-jdk8
+
+    steps:
+      - name: Code auschecken
+        uses: actions/checkout@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '8'
+          distribution: 'temurin'
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
+      - name: Test
+        run: docker ps
