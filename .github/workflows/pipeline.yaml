@@ -31,12 +31,20 @@ jobs:
           distribution: 'temurin'
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
-      - name: Test1
+      - name: Test
         run: |
           mkdir -p  test/report/
           cp -R build/doc/junit/AllKasse20Tests/ test/report/
           ls -la  test/report/
-      - uses: dorny/test-reporter@v1
+  
+  test_report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: |
+          ls -la  test/report/
+      - name: Test Report1
+        uses: dorny/test-reporter@v1
         if: always()
         with:
           name: Tests
