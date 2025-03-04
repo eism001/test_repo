@@ -16,7 +16,7 @@ jobs:
       - name: Test
         run: ls -la      
       - name: Oracle
-        run: chmod +x .github/oracle_start_script18.sh && .github/oracle_start_script18.sh
+        run: chmod +x .github/oracle_start_script18.sh && .github/oracle_start_script18.sh start
         
   build_app:
     name: Anwendung Bauen
