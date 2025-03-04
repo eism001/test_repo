@@ -22,7 +22,7 @@ jobs:
     name: Anwendung Bauen
     container: gradle:7-jdk8
     runs-on: self-hosted
-    
+    needs: [oracle_start]
     steps:
       - name: Set up JDK 8
         uses: actions/setup-java@v4
@@ -33,9 +33,10 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
       - name: Test1
         run: ls -la      
-      - name: Test Summary
-        uses: test-summary/action@v2
+      - uses: dorny/test-reporter@v1
         with:
-          paths: "build/doc/junit/AllKasse20Tests/**/*.xml"
-        if: always()        
+          artifact: test-results            # artifact name
+          name: JEST Tests                  # Name of the check run which will be created
+          path: 'build/doc/junit/AllKasse20Tests/*.xml'                     # Path to test results (inside artifact .zip)
+          reporter: jest-junit              #
 
