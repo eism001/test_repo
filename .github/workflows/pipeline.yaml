@@ -54,12 +54,11 @@ jobs:
       - name: Test
         run: |
           ls -la 
-          ls -la  test/report/
       - name: Test Report1
         uses: dorny/test-reporter@v1
         if: always()
         with:
           name: Tests
-          path: 'test/report/**/*.xml'
+          path: '**/*.xml'
           reporter: java-junit
 
