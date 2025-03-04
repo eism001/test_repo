@@ -37,9 +37,9 @@ jobs:
           cp -R build/doc/junit/AllKasse20Tests/ test/report/
           ls -la  test/report/
       - uses: dorny/test-reporter@v1
+        if: always()
         with:
-          artifact: test-results            # artifact name
-          name: JEST Tests                  # Name of the check run which will be created
-          path: 'test/report/AllKasse20Tests/*.xml'                     # Path to test results (inside artifact .zip)
-          reporter: jest-junit              #
+          name: Tests
+          path: 'test/report/AllKasse20Tests/*.xml'
+          reporter: java-junit
 
