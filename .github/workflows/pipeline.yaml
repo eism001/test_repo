@@ -53,6 +53,7 @@ jobs:
           name: Test-Results
       - name: Test
         run: |
+          ls -la 
           ls -la  test/report/
       - name: Test Report1
         uses: dorny/test-reporter@v1
