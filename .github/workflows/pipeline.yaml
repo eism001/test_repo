@@ -74,5 +74,7 @@ jobs:
         with:
           name: JEST Tests
           path: '**/TEST-*.xml'
-          reporter: jest-junit
+          reporter: java-junit
+          path-replace-backslashes: 'true'
+          
 
