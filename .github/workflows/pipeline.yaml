@@ -8,9 +8,9 @@ on:
 jobs:
   build_app:
     name: Anwendung Bauen
-    runs-on: ubuntu-latest
     container: gradle:7-jdk8
-
+    runs-on: self-hosted
+    
     steps:
       - name: Code auschecken
         uses: actions/checkout@v4
