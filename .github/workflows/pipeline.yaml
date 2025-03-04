@@ -7,14 +7,16 @@ on:
 
 jobs:
   oracle_start:
-    name: Oracle starten
+    name: Prepare
     container: docker:dind
     runs-on: self-hosted
     steps:
+      - name: Code auschecken
+        uses: actions/checkout@v4
       - name: Test
-        run: pwd
-      - name: Test1
         run: ls -la      
+      - name: Oracle
+        run: chmod +x .github/oracle_start_script18.sh && .github/oracle_start_script18.sh
         
   build_app:
     name: Anwendung Bauen
@@ -22,16 +24,12 @@ jobs:
     runs-on: self-hosted
     
     steps:
-      - name: Code auschecken
-        uses: actions/checkout@v4
-      - name: Set up JDK 17
+      - name: Set up JDK 8
         uses: actions/setup-java@v4
         with:
           java-version: '8'
           distribution: 'temurin'
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
+        uses: gradle/actions/setup-gradle
       - name: Test1
-        run: ls -la      
-      - name: Test2
         run: ls -la      
