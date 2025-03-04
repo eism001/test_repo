@@ -73,4 +73,5 @@ jobs:
           name: JEST Tests
           path: '**/TEST-*.xml'
           reporter: jest-junit
+          max-annotations: '0'
 
