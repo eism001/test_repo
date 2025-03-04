@@ -6,9 +6,17 @@ on:
       - main
 
 jobs:
+  oracle_start:
+    name: Oracle starten
+    container: docker:dind
+    runs-on: self-hosted
+    steps:
+      - name: Test
+        run: docker run hello-world
+        
   build_app:
     name: Anwendung Bauen
-    container: docker:dind
+    container: gradle:7-jdk8
     runs-on: self-hosted
     
     steps:
