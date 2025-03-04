@@ -36,6 +36,6 @@ jobs:
       - name: Test Summary
         uses: test-summary/action@v2
         with:
-          paths: "doc/junit/*.xml"
+          paths: "build/doc/junit/AllKasse20Tests/**/*.xml"
         if: always()        
 
