@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:45" hostname="EISMANN" time="1.52">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:54" hostname="EISMANN" time="1.473">
   <properties/>
-  <testcase name="testPointBalanceErfolgreich[TN]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="1.406">
+  <testcase name="testPointBalanceErfolgreich[TN]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="1.35">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:47 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:56 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testPointBalanceErfolgreich[KB]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="0.039"/>
-  <testcase name="testPointBalanceErfolgreich[KM]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="0.034"/>
-  <testcase name="testPointBalanceErfolgreich[OP]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="0.041"/>
+  <testcase name="testPointBalanceErfolgreich[KB]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="0.046"/>
+  <testcase name="testPointBalanceErfolgreich[KM]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="0.035"/>
+  <testcase name="testPointBalanceErfolgreich[OP]" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_erfolgreich" time="0.042"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

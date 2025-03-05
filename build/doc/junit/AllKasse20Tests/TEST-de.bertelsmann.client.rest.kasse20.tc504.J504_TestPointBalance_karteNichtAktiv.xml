@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_karteNichtAktiv" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:51" hostname="EISMANN" time="1.445">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_karteNichtAktiv" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:00" hostname="EISMANN" time="1.414">
   <properties/>
-  <testcase name="testKarteNichtAktiv" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_karteNichtAktiv" time="1.445">
+  <testcase name="testKarteNichtAktiv" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_karteNichtAktiv" time="1.414">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_karteNichtAktiv
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_karteNichtAktiv
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_karteNichtAktiv
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:53 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:01 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>

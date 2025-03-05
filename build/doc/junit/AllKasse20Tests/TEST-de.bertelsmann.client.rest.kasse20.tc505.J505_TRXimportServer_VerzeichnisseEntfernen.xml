@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_VerzeichnisseEntfernen" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:58" hostname="EISMANN" time="1.48">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_VerzeichnisseEntfernen" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:07" hostname="EISMANN" time="1.129">
   <properties/>
-  <testcase name="testVerzeichnisseEntfernen" classname="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_VerzeichnisseEntfernen" time="1.48">
+  <testcase name="testVerzeichnisseEntfernen" classname="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_VerzeichnisseEntfernen" time="1.129">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_VerzeichnisseEntfernen
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_VerzeichnisseEntfernen
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_VerzeichnisseEntfernen
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:00 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:08 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionInvalidRequest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:42" hostname="EISMANN" time="1.673">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionInvalidRequest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:51" hostname="EISMANN" time="1.731">
   <properties/>
-  <testcase name="testCancelRedemptionInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionInvalidRequest" time="1.673">
+  <testcase name="testCancelRedemptionInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionInvalidRequest" time="1.731">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionInvalidRequest
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionInvalidRequest
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionInvalidRequest
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:44 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:52 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>

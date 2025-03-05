@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.junit.tc245.J545_LivekasseInstoreRedemptionMonitoringAllgemein" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:18:02" hostname="EISMANN" time="1.865">
+<testsuite name="de.bertelsmann.client.junit.tc245.J545_LivekasseInstoreRedemptionMonitoringAllgemein" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:59" hostname="EISMANN" time="1.545">
   <properties/>
-  <testcase name="testZuLangeFehlermeldungWirdGekuerzt" classname="de.bertelsmann.client.junit.tc245.J545_LivekasseInstoreRedemptionMonitoringAllgemein" time="1.865">
+  <testcase name="testZuLangeFehlermeldungWirdGekuerzt" classname="de.bertelsmann.client.junit.tc245.J545_LivekasseInstoreRedemptionMonitoringAllgemein" time="1.545">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.junit.tc245.J545_LivekasseInstoreRedemptionMonitoringAllgemein
 initializing... (SetupOnce)class de.bertelsmann.client.junit.tc245.J545_LivekasseInstoreRedemptionMonitoringAllgemein
 initializing... (initContext)class de.bertelsmann.client.junit.tc245.J545_LivekasseInstoreRedemptionMonitoringAllgemein

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:15:59" hostname="EISMANN" time="1.511">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:10" hostname="EISMANN" time="1.476">
   <properties/>
-  <testcase name="testInvalidRequest[PartnerID fehlt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="1.411">
+  <testcase name="testInvalidRequest[PartnerID fehlt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="1.368">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:01 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:12 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidRequest[PartnerID zu lang]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.027"/>
-  <testcase name="testInvalidRequest[PartnerID zu kurz]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.026"/>
-  <testcase name="testInvalidRequest[PosID zu lang]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.023"/>
-  <testcase name="testInvalidRequest[Passwort fehlt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.024"/>
+  <testcase name="testInvalidRequest[PartnerID zu lang]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.026"/>
+  <testcase name="testInvalidRequest[PartnerID zu kurz]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.029"/>
+  <testcase name="testInvalidRequest[PosID zu lang]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.025"/>
+  <testcase name="testInvalidRequest[Passwort fehlt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestInvalidRequest" time="0.028"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

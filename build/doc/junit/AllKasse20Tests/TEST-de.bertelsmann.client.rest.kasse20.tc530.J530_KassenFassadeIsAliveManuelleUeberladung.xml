@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:18:11" hostname="EISMANN" time="1.898">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:46:07" hostname="EISMANN" time="1.687">
   <properties/>
-  <testcase name="testKassenWebServiceIsAliveManuellUebersteuertTrue" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung" time="1.418">
+  <testcase name="testKassenWebServiceIsAliveManuellUebersteuertTrue" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung" time="1.2">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:18:12 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:46:08 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testKassenWebServiceIsAliveManuellUebersteuertFalse" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung" time="0.48"/>
+  <testcase name="testKassenWebServiceIsAliveManuellUebersteuertFalse" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAliveManuelleUeberladung" time="0.487"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

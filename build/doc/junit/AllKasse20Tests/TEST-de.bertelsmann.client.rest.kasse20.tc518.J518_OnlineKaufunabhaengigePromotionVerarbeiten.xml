@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:12" hostname="EISMANN" time="2.077">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:17" hostname="EISMANN" time="1.455">
   <properties/>
-  <testcase name="testStandalonePromotionUngueltigesRequestPromotion" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="1.713">
+  <testcase name="testStandalonePromotionUngueltigesRequestPromotion" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="1.195">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:13 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:18 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testStandalonePromotionUngueltigesRequest" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.259"/>
-  <testcase name="testUngueltigerToken" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.034">
-    <system-out><![CDATA[ERROR #1741108634235
-ERROR #1741108634236
-ERROR #1741108634237
-ERROR #1741108634237
+  <testcase name="testStandalonePromotionUngueltigesRequest" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.173"/>
+  <testcase name="testUngueltigerToken" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.027">
+    <system-out><![CDATA[ERROR #1741175118928
+ERROR #1741175118929
+ERROR #1741175118929
+ERROR #1741175118930
 ]]></system-out>
   </testcase>
-  <testcase name="testStandalonePromotionFehler" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.031"/>
-  <testcase name="testStandalonePromotionErfolgreich" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.039"/>
+  <testcase name="testStandalonePromotionFehler" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.032"/>
+  <testcase name="testStandalonePromotionErfolgreich" classname="de.bertelsmann.client.rest.kasse20.tc518.J518_OnlineKaufunabhaengigePromotionVerarbeiten" time="0.027"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

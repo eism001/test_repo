@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_authorisierungFehlgeschlagen" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:54" hostname="EISMANN" time="1.375">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_authorisierungFehlgeschlagen" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:03" hostname="EISMANN" time="1.446">
   <properties/>
-  <testcase name="testAuthorisierungFehlgeschlagen" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_authorisierungFehlgeschlagen" time="1.375">
+  <testcase name="testAuthorisierungFehlgeschlagen" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_authorisierungFehlgeschlagen" time="1.446">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_authorisierungFehlgeschlagen
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_authorisierungFehlgeschlagen
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_authorisierungFehlgeschlagen
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:56 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:04 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>

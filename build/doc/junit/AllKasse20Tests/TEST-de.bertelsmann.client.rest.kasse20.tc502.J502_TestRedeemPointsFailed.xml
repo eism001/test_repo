@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:10" hostname="EISMANN" time="4.245">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:21" hostname="EISMANN" time="4.125">
   <properties/>
-  <testcase name="testReedemPointsMitDigitalerKarteEinloesungVerboten" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="2.074">
+  <testcase name="testReedemPointsMitDigitalerKarteEinloesungVerboten" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="2.001">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed
 resource not found: NektarMemberEntity.properties
 resource not found: AddressEntity.properties
-resource not found: ContractEntity.properties
 resource not found: CompoundComEntity.properties
+resource not found: ContractEntity.properties
 resource not found: ProfileEntity.properties
 ]]></system-out>
     <system-err><![CDATA[CDI-Fehler... neue DependencyInjection nötig
-Mär 04, 2025 6:16:12 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+Mär 05, 2025 12:44:23 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testRedeemPointsAuthenticatonFailed" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.173"/>
-  <testcase name="testEinloesesperreAufKartenebene" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.479"/>
-  <testcase name="testRedeemPointsInvalidCard" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.077"/>
-  <testcase name="testAuffaelligeEinloesungIstNichtDerAblehungsgrundWennWeitereFehlerVorliegen" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.159"/>
-  <testcase name="testEinmalPasswortWirdAbgelehntWennDiesesBereitsVerwendetWurdeOderAbgelaufenIst" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.114"/>
-  <testcase name="testAblehnungAuffaelligerEinloesungMitIndividuellemFehlertext" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.142"/>
-  <testcase name="testRedeemPointsNoPermission" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.373"/>
-  <testcase name="testRedeemPointsInactiveCustomer" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.364"/>
-  <testcase name="testRedeemPointsToLess" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.155"/>
-  <testcase name="testRedeemPointsToMuch" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.135"/>
+  <testcase name="testRedeemPointsAuthenticatonFailed" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.159"/>
+  <testcase name="testEinloesesperreAufKartenebene" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.484"/>
+  <testcase name="testRedeemPointsInvalidCard" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.102"/>
+  <testcase name="testAuffaelligeEinloesungIstNichtDerAblehungsgrundWennWeitereFehlerVorliegen" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.151"/>
+  <testcase name="testEinmalPasswortWirdAbgelehntWennDiesesBereitsVerwendetWurdeOderAbgelaufenIst" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.113"/>
+  <testcase name="testAblehnungAuffaelligerEinloesungMitIndividuellemFehlertext" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.122"/>
+  <testcase name="testRedeemPointsNoPermission" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.339"/>
+  <testcase name="testRedeemPointsInactiveCustomer" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.368"/>
+  <testcase name="testRedeemPointsToLess" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.151"/>
+  <testcase name="testRedeemPointsToMuch" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsFailed" time="0.133"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

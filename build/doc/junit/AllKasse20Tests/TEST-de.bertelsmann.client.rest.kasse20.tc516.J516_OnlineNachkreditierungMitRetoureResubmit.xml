@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:18:04" hostname="EISMANN" time="1.551">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:46:01" hostname="EISMANN" time="1.28">
   <properties/>
-  <testcase name="testAufrufMitDublettenpruefung_DubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" time="1.466">
+  <testcase name="testAufrufMitDublettenpruefung_DubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" time="1.207">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:18:05 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:46:02 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testAufrufMitDublettenpruefung_keineDubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" time="0.031"/>
-  <testcase name="testAufrufMitDublettenpruefung_UneindeutigeAntworten" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" time="0.054"/>
+  <testcase name="testAufrufMitDublettenpruefung_keineDubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" time="0.03"/>
+  <testcase name="testAufrufMitDublettenpruefung_UneindeutigeAntworten" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierungMitRetoureResubmit" time="0.042"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

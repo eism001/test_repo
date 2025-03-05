@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:40" hostname="EISMANN" time="1.96">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:49" hostname="EISMANN" time="2.002">
   <properties/>
-  <testcase name="testCancelRedemptionUnknownActivityId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="1.49">
+  <testcase name="testCancelRedemptionUnknownActivityId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="1.559">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed
 ]]></system-out>
     <system-err><![CDATA[CDI-Fehler... neue DependencyInjection nötig
-Mär 04, 2025 6:16:41 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+Mär 05, 2025 12:44:50 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testCancelRedemptionUnknownCard" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.053"/>
-  <testcase name="testCancelRedemptionTwice" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.335"/>
-  <testcase name="testCancelRedemptionInvalidCard" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.043"/>
-  <testcase name="testCancelRedemptionUnknownTransactionId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.039"/>
+  <testcase name="testCancelRedemptionUnknownCard" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.055"/>
+  <testcase name="testCancelRedemptionTwice" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.305"/>
+  <testcase name="testCancelRedemptionInvalidCard" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.045"/>
+  <testcase name="testCancelRedemptionUnknownTransactionId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionFailed" time="0.037"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

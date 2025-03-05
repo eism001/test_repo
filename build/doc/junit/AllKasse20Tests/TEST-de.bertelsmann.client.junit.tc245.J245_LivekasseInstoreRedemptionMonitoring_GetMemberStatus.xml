@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:56" hostname="EISMANN" time="6.113">
+<testsuite name="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:54" hostname="EISMANN" time="5.674">
   <properties/>
-  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_GetMemberStatus_Fehler" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus" time="3.964">
+  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_GetMemberStatus_Fehler" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus" time="3.564">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus
 initializing... (SetupOnce)class de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus
 initializing... (initContext)class de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:59 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:57 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_GetMemberStatus_Erfolgreich" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus" time="2.149"/>
+  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_GetMemberStatus_Erfolgreich" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_GetMemberStatus" time="2.11"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

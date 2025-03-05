@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:08" hostname="EISMANN" time="1.411">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:19" hostname="EISMANN" time="1.436">
   <properties/>
-  <testcase name="testAufrufMitDublettenpruefung_DubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" time="1.314">
+  <testcase name="testAufrufMitDublettenpruefung_DubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" time="1.347">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:09 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:21 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testAufrufMitDublettenpruefung_keineDubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" time="0.04"/>
-  <testcase name="testAufrufMitDublettenpruefung_UneindeutigeAntworten" classname="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" time="0.056"/>
+  <testcase name="testAufrufMitDublettenpruefung_keineDubletteVorhanden" classname="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" time="0.037"/>
+  <testcase name="testAufrufMitDublettenpruefung_UneindeutigeAntworten" classname="de.bertelsmann.client.rest.kasse20.tc501.J501_OnlineKassentransaktionResubmitVerarbeiten" time="0.052"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

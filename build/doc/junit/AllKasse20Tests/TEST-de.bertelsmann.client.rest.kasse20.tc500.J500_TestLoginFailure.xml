@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:15:55" hostname="EISMANN" time="3.907">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:07" hostname="EISMANN" time="3.888">
   <properties/>
-  <testcase name="testLoginFailure[Partner unbekannt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="1.693">
+  <testcase name="testLoginFailure[Partner unbekannt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="1.657">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:15:57 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:08 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 CDI-Fehler... neue DependencyInjection nötig
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginFailure[Partner inaktiv]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.153"/>
-  <testcase name="testLoginFailure[Filiale unbekannt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.144"/>
-  <testcase name="testLoginFailure[Filiale inaktiv]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.147"/>
-  <testcase name="testLoginFailure[Passwort falsch (ohne Filiale)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.14"/>
-  <testcase name="testLoginFailure[Passwort falsch (mit Filiale mit Passwort)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.152"/>
-  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, Fallback aktiv)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.147"/>
-  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, kein Fallback)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.147"/>
-  <testcase name="testLoginFailure[Partner unbekannt, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.145"/>
-  <testcase name="testLoginFailure[Partner inaktiv, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.147"/>
-  <testcase name="testLoginFailure[Filiale unbekannt, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.143"/>
-  <testcase name="testLoginFailure[Filiale inaktiv, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.138"/>
-  <testcase name="testLoginFailure[Passwort falsch (ohne Filiale), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.142"/>
-  <testcase name="testLoginFailure[Passwort falsch (mit Filiale mit Passwort), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.169"/>
-  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, Fallback aktiv), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.155"/>
-  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, kein Fallback), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.143"/>
+  <testcase name="testLoginFailure[Partner inaktiv]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.146"/>
+  <testcase name="testLoginFailure[Filiale unbekannt]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.157"/>
+  <testcase name="testLoginFailure[Filiale inaktiv]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.151"/>
+  <testcase name="testLoginFailure[Passwort falsch (ohne Filiale)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.147"/>
+  <testcase name="testLoginFailure[Passwort falsch (mit Filiale mit Passwort)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.156"/>
+  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, Fallback aktiv)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.148"/>
+  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, kein Fallback)]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.145"/>
+  <testcase name="testLoginFailure[Partner unbekannt, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.147"/>
+  <testcase name="testLoginFailure[Partner inaktiv, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.143"/>
+  <testcase name="testLoginFailure[Filiale unbekannt, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.146"/>
+  <testcase name="testLoginFailure[Filiale inaktiv, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.149"/>
+  <testcase name="testLoginFailure[Passwort falsch (ohne Filiale), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.15"/>
+  <testcase name="testLoginFailure[Passwort falsch (mit Filiale mit Passwort), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.151"/>
+  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, Fallback aktiv), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.149"/>
+  <testcase name="testLoginFailure[Passwort falsch (mit Filiale ohne Passwort, kein Fallback), cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLoginFailure" time="0.144"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:22" hostname="EISMANN" time="1.581">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:24" hostname="EISMANN" time="1.225">
   <properties/>
-  <testcase name="testSyntaxfehler" classname="de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler" time="1.547">
+  <testcase name="testSyntaxfehler" classname="de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler" time="1.193">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:23 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:25 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler" time="0.034">
-    <system-out><![CDATA[ERROR #1741108643680
-ERROR #1741108643681
-ERROR #1741108643682
-ERROR #1741108643683
+  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc522.J522_TestVormerkungStornoFehler" time="0.032">
+    <system-out><![CDATA[ERROR #1741175125911
+ERROR #1741175125912
+ERROR #1741175125912
+ERROR #1741175125912
 ]]></system-out>
   </testcase>
   <system-out><![CDATA[]]></system-out>

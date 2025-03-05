@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_erteileStopBefehl" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:56" hostname="EISMANN" time="1.245">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_erteileStopBefehl" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:04" hostname="EISMANN" time="1.163">
   <properties/>
-  <testcase name="testerteileStopBefehl" classname="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_erteileStopBefehl" time="1.245">
+  <testcase name="testerteileStopBefehl" classname="de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_erteileStopBefehl" time="1.163">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_erteileStopBefehl
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_erteileStopBefehl
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc505.J505_TRXimportServer_erteileStopBefehl
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:57 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:06 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>

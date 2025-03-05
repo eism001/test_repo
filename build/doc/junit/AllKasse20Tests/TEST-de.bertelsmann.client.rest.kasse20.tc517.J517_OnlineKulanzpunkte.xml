@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:08" hostname="EISMANN" time="1.96">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:14" hostname="EISMANN" time="1.456">
   <properties/>
-  <testcase name="testError" classname="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" time="1.674">
+  <testcase name="testError" classname="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" time="1.194">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:10 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:15 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" time="0.235"/>
+  <testcase name="testInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" time="0.199"/>
   <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" time="0.028">
-    <system-out><![CDATA[ERROR #1741108630547
-ERROR #1741108630548
-ERROR #1741108630548
-ERROR #1741108630549
+    <system-out><![CDATA[ERROR #1741175116251
+ERROR #1741175116252
+ERROR #1741175116253
+ERROR #1741175116253
 ]]></system-out>
   </testcase>
-  <testcase name="testSuccess" classname="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" time="0.023"/>
+  <testcase name="testSuccess" classname="de.bertelsmann.client.rest.kasse20.tc517.J517_OnlineKulanzpunkte" time="0.034"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

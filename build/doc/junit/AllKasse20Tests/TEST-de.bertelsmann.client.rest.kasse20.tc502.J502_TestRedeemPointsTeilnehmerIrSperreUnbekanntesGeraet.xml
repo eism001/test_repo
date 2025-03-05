@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:28" hostname="EISMANN" time="3.181">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:39" hostname="EISMANN" time="2.858">
   <properties/>
-  <testcase name="testTuerZu3EinloesungMitGesetzterSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="2.289">
+  <testcase name="testTuerZu3EinloesungMitGesetzterSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="2.192">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet
 ERROR StatusConsoleListener An exception occurred processing Appender DMDCommonLogfile
- org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of Managed Bean [class de.bertelsmann.container.enrolment.internal.BLUCard] with qualifiers [@Any @Default] is not valid after container 3aa152d2-7352-4495-ab40-c3f380d83b38 shutdown
+ org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of Managed Bean [class de.bertelsmann.container.enrolment.internal.BLUCard] with qualifiers [@Any @Default] is not valid after container 63731b51-3634-46a8-8093-86fec82523a5 shutdown
 	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:85)
 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:125)
 	at de.bertelsmann.container.enrolment.internal.BLUCard$Proxy$_$$_WeldClientProxy.toString(Unknown Source)
@@ -46,14 +46,14 @@ ERROR StatusConsoleListener An exception occurred processing Appender DMDCommonL
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:30 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:41 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testTuerZu3EinloesungMitGesetzterSperreImHighPos" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.218"/>
-  <testcase name="testTuerZu3EinloesungMitAbgelaufenerSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.231"/>
-  <testcase name="testTuerZu3EinloesungMitAndererSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.221"/>
-  <testcase name="testTuerZu3EinloesungMitGesetzterSperrePartnerNimmtNichtTeil" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.221"/>
+  <testcase name="testTuerZu3EinloesungMitGesetzterSperreImHighPos" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.162"/>
+  <testcase name="testTuerZu3EinloesungMitAbgelaufenerSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.154"/>
+  <testcase name="testTuerZu3EinloesungMitAndererSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.173"/>
+  <testcase name="testTuerZu3EinloesungMitGesetzterSperrePartnerNimmtNichtTeil" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsTeilnehmerIrSperreUnbekanntesGeraet" time="0.176"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

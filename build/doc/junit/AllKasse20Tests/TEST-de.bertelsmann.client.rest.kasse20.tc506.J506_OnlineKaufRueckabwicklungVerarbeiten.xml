@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:01" hostname="EISMANN" time="2.094">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:09" hostname="EISMANN" time="1.442">
   <properties/>
-  <testcase name="testReversePurchaseSuccess" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="1.69">
+  <testcase name="testReversePurchaseSuccess" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="1.152">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:03 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:10 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testReversePurchaseInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="0.339"/>
-  <testcase name="testReversePurchaseError" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="0.035"/>
-  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="0.03">
-    <system-out><![CDATA[ERROR #1741108623862
-ERROR #1741108623863
-ERROR #1741108623864
-ERROR #1741108623865
+  <testcase name="testReversePurchaseInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="0.241"/>
+  <testcase name="testReversePurchaseError" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="0.027"/>
+  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc506.J506_OnlineKaufRueckabwicklungVerarbeiten" time="0.022">
+    <system-out><![CDATA[ERROR #1741175111159
+ERROR #1741175111160
+ERROR #1741175111160
+ERROR #1741175111160
 ]]></system-out>
   </testcase>
   <system-out><![CDATA[]]></system-out>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:17" hostname="EISMANN" time="1.642">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:21" hostname="EISMANN" time="1.231">
   <properties/>
-  <testcase name="testConfirmAnnouncedPurchasesError" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="1.463">
+  <testcase name="testConfirmAnnouncedPurchasesError" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="1.09">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:19 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:22 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testConfirmAnnouncedPurchaseInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="0.108"/>
-  <testcase name="testConfirmAnnouncedPurchasesSuccess" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="0.037"/>
-  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="0.034">
-    <system-out><![CDATA[ERROR #1741108639570
-ERROR #1741108639571
-ERROR #1741108639572
-ERROR #1741108639572
+  <testcase name="testConfirmAnnouncedPurchaseInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="0.09"/>
+  <testcase name="testConfirmAnnouncedPurchasesSuccess" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="0.027"/>
+  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc521.J521_OnlineKaufvormerkungBestaetigen" time="0.024">
+    <system-out><![CDATA[ERROR #1741175123022
+ERROR #1741175123023
+ERROR #1741175123024
+ERROR #1741175123024
 ]]></system-out>
   </testcase>
   <system-out><![CDATA[]]></system-out>

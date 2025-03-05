@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:04" hostname="EISMANN" time="1.703">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:15" hostname="EISMANN" time="1.662">
   <properties/>
-  <testcase name="testLoginSuccess[keine Filiale + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="1.325">
+  <testcase name="testLoginSuccess[keine Filiale + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="1.265">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:06 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:17 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginFailure[keine Filiale + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.033"/>
-  <testcase name="testLoginSuccess[Filiale (mit Passwort) + POS-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.044"/>
-  <testcase name="testLoginFailure[Filiale (mit Passwort) + POS-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.027"/>
-  <testcase name="testLoginSuccess[Filiale (ohne Passwort) + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.038"/>
-  <testcase name="testLoginFailure[Filiale (ohne Passwort) + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.031"/>
-  <testcase name="testLoginSuccess[keine Filiale + IR-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.04"/>
-  <testcase name="testLoginFailure[keine Filiale + IR-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.024"/>
-  <testcase name="testLoginSuccess[Filiale (mit Passwort) + POS-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.042"/>
-  <testcase name="testLoginFailure[Filiale (mit Passwort) + POS-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.036"/>
-  <testcase name="testLoginSuccess[Filiale (ohne Passwort) + IR-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.037"/>
+  <testcase name="testLoginFailure[keine Filiale + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.027"/>
+  <testcase name="testLoginSuccess[Filiale (mit Passwort) + POS-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.035"/>
+  <testcase name="testLoginFailure[Filiale (mit Passwort) + POS-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.038"/>
+  <testcase name="testLoginSuccess[Filiale (ohne Passwort) + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.036"/>
+  <testcase name="testLoginFailure[Filiale (ohne Passwort) + IR-Passwort]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.028"/>
+  <testcase name="testLoginSuccess[keine Filiale + IR-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.041"/>
+  <testcase name="testLoginFailure[keine Filiale + IR-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.035"/>
+  <testcase name="testLoginSuccess[Filiale (mit Passwort) + POS-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.055"/>
+  <testcase name="testLoginFailure[Filiale (mit Passwort) + POS-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.03"/>
+  <testcase name="testLoginSuccess[Filiale (ohne Passwort) + IR-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.045"/>
   <testcase name="testLoginFailure[Filiale (ohne Passwort) + IR-Passwort, cachebasiert]" classname="de.bertelsmann.client.rest.kasse20.tc500.J500_TestLogin_keinApiToken_DCARDNST_4952" time="0.026"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

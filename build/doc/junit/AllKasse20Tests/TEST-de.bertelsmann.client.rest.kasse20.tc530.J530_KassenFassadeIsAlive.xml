@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:18:05" hostname="EISMANN" time="2.477">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:46:02" hostname="EISMANN" time="2.201">
   <properties/>
-  <testcase name="testKassenWebServiceIsAlive" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" time="1.419">
+  <testcase name="testKassenWebServiceIsAlive" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" time="1.149">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:18:06 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:46:03 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testKassenWebServiceIsAliveTanCacheLeer" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" time="0.476">
-    <system-out><![CDATA[ERROR #1741108687503
+  <testcase name="testKassenWebServiceIsAliveTanCacheLeer" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" time="0.486">
+    <system-out><![CDATA[ERROR #1741175164259
 ]]></system-out>
   </testcase>
-  <testcase name="testKassenWebServiceIsAliveDBFehler" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" time="0.582"/>
+  <testcase name="testKassenWebServiceIsAliveDBFehler" classname="de.bertelsmann.client.rest.kasse20.tc530.J530_KassenFassadeIsAlive" time="0.566"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

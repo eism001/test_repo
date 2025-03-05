@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:32" hostname="EISMANN" time="1.675">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:32" hostname="EISMANN" time="1.359">
   <properties/>
-  <testcase name="testError" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="1.364">
+  <testcase name="testError" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="1.115">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:33 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:33 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="0.251"/>
-  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="0.031">
-    <system-out><![CDATA[ERROR #1741108654096
-ERROR #1741108654097
-ERROR #1741108654098
-ERROR #1741108654098
+  <testcase name="testInvalidRequest" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="0.188"/>
+  <testcase name="testInvalidToken" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="0.026">
+    <system-out><![CDATA[ERROR #1741175134053
+ERROR #1741175134053
+ERROR #1741175134054
+ERROR #1741175134054
 ]]></system-out>
   </testcase>
-  <testcase name="testSuccess" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="0.029"/>
+  <testcase name="testSuccess" classname="de.bertelsmann.client.rest.kasse20.tc516.J516_OnlineNachkreditierung" time="0.03"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

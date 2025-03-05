@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:16" hostname="EISMANN" time="2.278">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:27" hostname="EISMANN" time="2.392">
   <properties/>
-  <testcase name="testRedeemPointsSuccessPIN" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="1.744">
+  <testcase name="testRedeemPointsSuccessPIN" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="1.83">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess
 ERROR StatusConsoleListener An exception occurred processing Appender DMDCommonLogfile
- org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of Managed Bean [class de.bertelsmann.container.enrolment.internal.BLUCard] with qualifiers [@Any @Default] is not valid after container bbdad1d2-53ee-4240-b22e-d08d3f7f0bac shutdown
+ org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of Managed Bean [class de.bertelsmann.container.enrolment.internal.BLUCard] with qualifiers [@Any @Default] is not valid after container 0fae3163-1830-42d2-9963-fd9ecd22eb87 shutdown
 	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:85)
 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:125)
 	at de.bertelsmann.container.enrolment.internal.BLUCard$Proxy$_$$_WeldClientProxy.toString(Unknown Source)
@@ -46,14 +46,14 @@ ERROR StatusConsoleListener An exception occurred processing Appender DMDCommonL
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:17 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:28 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 CDI-Fehler... neue DependencyInjection nötig
 ]]></system-err>
   </testcase>
-  <testcase name="testRedeemPointsSuccessNoPIN" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="0.268"/>
-  <testcase name="testReedemPointsMitDigitalerKarteEinloesungErlaubt" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="0.116"/>
-  <testcase name="testReedemPointsMitEinmalpasswort" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="0.149"/>
+  <testcase name="testRedeemPointsSuccessNoPIN" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="0.274"/>
+  <testcase name="testReedemPointsMitDigitalerKarteEinloesungErlaubt" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="0.135"/>
+  <testcase name="testReedemPointsMitEinmalpasswort" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsSuccess" time="0.152"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

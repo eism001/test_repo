@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:49" hostname="EISMANN" time="6.276">
+<testsuite name="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:48" hostname="EISMANN" time="5.791">
   <properties/>
-  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_RedeemPoints_Erfolgreich" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints" time="4.073">
+  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_RedeemPoints_Erfolgreich" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints" time="3.627">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints
 initializing... (SetupOnce)class de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints
 initializing... (initContext)class de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:53 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:51 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_RedeemPoints_Fehler" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints" time="2.203"/>
+  <testcase name="testMonitoringNachrichtInDatenbankUebernehmen_RedeemPoints_Fehler" classname="de.bertelsmann.client.junit.tc245.J245_LivekasseInstoreRedemptionMonitoring_RedeemPoints" time="2.164"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:48" hostname="EISMANN" time="1.456">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:57" hostname="EISMANN" time="1.401">
   <properties/>
-  <testcase name="testTeilnehmerHatEinloesesperre" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre" time="1.389">
+  <testcase name="testTeilnehmerHatEinloesesperre" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre" time="1.331">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:50 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:58 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testKarteHatEinloesesperre" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre" time="0.067"/>
+  <testcase name="testKarteHatEinloesesperre" classname="de.bertelsmann.client.rest.kasse20.tc504.J504_TestPointBalance_teilnehmerHatEinloesesperre" time="0.07"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

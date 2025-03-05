@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:18" hostname="EISMANN" time="9.782">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:29" hostname="EISMANN" time="9.84">
   <properties/>
-  <testcase name="testAuffaelligeEinloesungNachSperreUeberDatenbank" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="4.273">
+  <testcase name="testAuffaelligeEinloesungNachSperreUeberDatenbank" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="4.258">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre
 ERROR StatusConsoleListener An exception occurred processing Appender DMDCommonLogfile
- org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of Managed Bean [class de.bertelsmann.container.enrolment.internal.BLUCard] with qualifiers [@Any @Default] is not valid after container 69da14d5-5173-41ed-b37e-066f11374281 shutdown
+ org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of Managed Bean [class de.bertelsmann.container.enrolment.internal.BLUCard] with qualifiers [@Any @Default] is not valid after container fbb9f31e-6ef4-4784-860b-3967063ad973 shutdown
 	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:85)
 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:125)
 	at de.bertelsmann.container.enrolment.internal.BLUCard$Proxy$_$$_WeldClientProxy.toString(Unknown Source)
@@ -47,17 +47,17 @@ initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc502.J502_T
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre
 ]]></system-out>
     <system-err><![CDATA[CDI-Fehler... neue DependencyInjection nötig
-Mär 04, 2025 6:16:20 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+Mär 05, 2025 12:44:31 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testAuffaelligeEinloesungNachSperreUeberKafka" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.197"/>
-  <testcase name="testAuffaelligeEinloesungFilialeHatEigeneKonfiguration" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="4.366"/>
-  <testcase name="testAuffaelligeEinloesungNachAbgelaufenerSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.168"/>
-  <testcase name="testAuffaelligeEinloesungMitPosSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.194"/>
-  <testcase name="testUnauffaelligeEinloesungGesperrterPos" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.183"/>
-  <testcase name="testAuffaelligeEinloesungFilialeNimmtNichtTeil" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.196"/>
-  <testcase name="testAuffaelligeEinloesungPartnerNimmtNichtTeil" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.205"/>
+  <testcase name="testAuffaelligeEinloesungNachSperreUeberKafka" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.207"/>
+  <testcase name="testAuffaelligeEinloesungFilialeHatEigeneKonfiguration" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="4.301"/>
+  <testcase name="testAuffaelligeEinloesungNachAbgelaufenerSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.175"/>
+  <testcase name="testAuffaelligeEinloesungMitPosSperre" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.225"/>
+  <testcase name="testUnauffaelligeEinloesungGesperrterPos" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.235"/>
+  <testcase name="testAuffaelligeEinloesungFilialeNimmtNichtTeil" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.22"/>
+  <testcase name="testAuffaelligeEinloesungPartnerNimmtNichtTeil" classname="de.bertelsmann.client.rest.kasse20.tc502.J502_TestRedeemPointsPosIrSperre" time="0.219"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

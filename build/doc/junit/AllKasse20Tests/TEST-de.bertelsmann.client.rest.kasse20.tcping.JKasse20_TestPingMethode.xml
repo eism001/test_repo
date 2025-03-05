@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tcping.JKasse20_TestPingMethode" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:17:23" hostname="EISMANN" time="1.503">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tcping.JKasse20_TestPingMethode" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:45:25" hostname="EISMANN" time="1.117">
   <properties/>
-  <testcase name="testPingMethode" classname="de.bertelsmann.client.rest.kasse20.tcping.JKasse20_TestPingMethode" time="1.503">
+  <testcase name="testPingMethode" classname="de.bertelsmann.client.rest.kasse20.tcping.JKasse20_TestPingMethode" time="1.117">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tcping.JKasse20_TestPingMethode
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tcping.JKasse20_TestPingMethode
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tcping.JKasse20_TestPingMethode
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:17:25 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:45:27 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>

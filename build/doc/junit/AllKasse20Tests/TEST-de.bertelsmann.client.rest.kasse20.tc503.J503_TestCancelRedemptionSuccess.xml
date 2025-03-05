@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-04T17:16:44" hostname="EISMANN" time="1.63">
+<testsuite name="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-05T11:44:53" hostname="EISMANN" time="1.668">
   <properties/>
-  <testcase name="testStornoUeberEinmalPasswort" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" time="1.501">
+  <testcase name="testStornoUeberEinmalPasswort" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" time="1.537">
     <system-out><![CDATA[initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess
 initializing... (SetupOnce)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess
 initializing... (initContext)class de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess
 ]]></system-out>
-    <system-err><![CDATA[Mär 04, 2025 6:16:45 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
+    <system-err><![CDATA[Mär 05, 2025 12:44:54 PM org.glassfish.jersey.test.inmemory.InMemoryTestContainerFactory$InMemoryTestContainer <init>
 INFORMATION: Creating InMemoryTestContainer configured at the base URI http://localhost:9998/
 ]]></system-err>
   </testcase>
-  <testcase name="testCancelRedemptionSuccessTransactionId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" time="0.062"/>
-  <testcase name="testCancelRedemptionSuccessActivityId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" time="0.067"/>
+  <testcase name="testCancelRedemptionSuccessTransactionId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" time="0.061"/>
+  <testcase name="testCancelRedemptionSuccessActivityId" classname="de.bertelsmann.client.rest.kasse20.tc503.J503_TestCancelRedemptionSuccess" time="0.07"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
