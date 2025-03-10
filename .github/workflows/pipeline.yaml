@@ -83,9 +83,19 @@ jobs:
 #        with:
 #          report_paths: '**/TEST-*.xml' 
 
-      - uses: dorny/test-reporter@v1
-        with:
-          artifact: test-results            # artifact name
-          name: JUNIT Tests                  # Name of the check run which will be created
-          path: '**/TEST-*.xml' 
-          reporter: java-junit              # Format of test results
+#      - uses: dorny/test-reporter@v1
+#        with:
+#          artifact: test-results            # artifact name
+#          name: JUNIT Tests                  # Name of the check run which will be created
+#          path: '**/TEST-*.xml' 
+#          reporter: java-junit              # Format of test results
+
+  deploy:
+    runs-on: ubuntu-latest
+    if: inputs.deploy == 'true'
+    needs: [test_report]
+    steps:
+      - name: Deploy
+        run: |
+          echo "Deploy"
+        
