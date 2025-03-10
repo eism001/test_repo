@@ -92,7 +92,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    if: inputs.deploy == 'true'
+    if: $DEPLOY == 'true'
     needs: [test_report]
     steps:
       - name: Deploy
