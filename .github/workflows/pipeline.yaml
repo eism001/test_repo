@@ -4,13 +4,15 @@ on:
   push:
     branches:
       - main
-
   workflow_dispatch:
     inputs:
       deploy:
         description: Image deployen
         default: false
         type: boolean
+
+env:
+  DEPLOY: ${{ inputs.deploy || 'false' }}
 
 jobs:
   oracle_start:
@@ -23,9 +25,7 @@ jobs:
       - name: Test
         run: |
           ls -la
-          echo Deploy: $DEPLOY
-        env:
-          DEPLOY: ${{ inputs.deploy }}
+          echo Deploy: ${DEPLOY}
 #      - name: Oracle
 #        run: |
 #          chmod +x .github/oracle_start_script18.sh && .github/oracle_start_script18.sh start
