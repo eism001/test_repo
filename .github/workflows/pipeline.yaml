@@ -13,6 +13,11 @@ on:
 
 env:
   DEPLOY: ${{ inputs.deploy || 'false' }}
+  GIT_HASH: $(git rev-parse --short "$GITHUB_SHA")
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   oracle_start:
@@ -26,9 +31,14 @@ jobs:
         run: |
           ls -la
           echo Deploy: ${DEPLOY}
+          echo Hash: ${GIT_HASH}
 #      - name: Oracle
 #        run: |
 #          chmod +x .github/oracle_start_script18.sh && .github/oracle_start_script18.sh start
+      - name: Set up mutex
+        uses: ben-z/gh-action-mutex
+        with:
+          branch: $GIT_HASH
         
   build_app:
     name: Anwendung Bauen
@@ -92,7 +102,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    if: $DEPLOY == 'true'
+    if: ${{ env.DEPLOY == 'true' }}
     needs: [test_report]
     steps:
       - name: Deploy
