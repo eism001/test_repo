@@ -63,7 +63,6 @@ jobs:
         with:
           name: Test-Results
           retention-days: 1
-          pres
           path: |
               test/report/**/*.*
           
@@ -103,7 +102,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    if: ${{ env.DEPLOY == 'true' }}
+#    if: ${{ env.DEPLOY == 'true' }}
     needs: [test_report]
     steps:
       - name: Deploy
