@@ -63,6 +63,7 @@ jobs:
         with:
           name: Test-Results
           retention-days: 1
+          pres
           path: |
               test/report/**/*.*
           
@@ -87,11 +88,11 @@ jobs:
 #        with:
 #          report_paths: '**/TEST-*.xml' 
 
-#      - name: Publish Test Report
-#        if: success() || failure()
-#        uses: scacap/action-surefire-report@v1
-#        with:
-#          report_paths: '**/TEST-*.xml' 
+      - name: Publish Test Report
+        if: success() || failure()
+        uses: scacap/action-surefire-report@v1
+        with:
+          report_paths: '**/TEST-*.xml' 
 
 #      - uses: dorny/test-reporter@v1
 #        with:
