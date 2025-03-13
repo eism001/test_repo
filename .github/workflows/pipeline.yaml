@@ -35,10 +35,10 @@ jobs:
 #      - name: Oracle
 #        run: |
 #          chmod +x .github/oracle_start_script18.sh && .github/oracle_start_script18.sh start
-      - name: Set up mutex
-        uses: ben-z/gh-action-mutex@v1.0.0
-        with:
-          branch: $GIT_HASH
+#      - name: Set up mutex
+#        uses: ben-z/gh-action-mutex@v1.0.0
+#        with:
+#          branch: $GIT_HASH
         
   build_app:
     name: Anwendung Bauen
