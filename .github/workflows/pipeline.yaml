@@ -29,6 +29,7 @@ jobs:
         shell: bash
         id: myvar
         run: |
+          echo ${{ inputs.deploy }}
           if [ ${{ inputs.deploy }} ]; then
             echo deploy=${DEPLOY} >> "$GITHUB_OUTPUT"
           else 
