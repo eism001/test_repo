@@ -8,24 +8,30 @@ on:
     inputs:
       deploy:
         description: Image deployen
-        default: false
-        type: boolean
-
+        default: "nein"
+        type: choice
+        options:
+          - "ja"
+          - "nein"
 env:
-  DEPLOY: ${{ inputs.deploy || 'false' }}
+  DEPLOY: ${{ inputs.deploy }}
   GIT_HASH: $(git rev-parse --short "$GITHUB_SHA")
 
 jobs:
   Job_1:
     name: Job 1
     runs-on: ubuntu-latest
+    env:
+      VARS_JSON: ${{ toJSON(vars) }}
     steps:
       - name: Code auschecken
         uses: actions/checkout@v4
       - name: Test
         run: |
           ls -la
-          echo Deploy: ${{ github.env.DEPLOY }}
+          echo Deploy: ${{ inputs.deploy }}
+          echo Deploy: ${DEPLOY}
+          echo "${VARS_JSON}"
 
   Job_2:
     name: Job 2
