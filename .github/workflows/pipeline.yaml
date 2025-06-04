@@ -14,7 +14,7 @@ on:
           - "ja"
           - "nein"
 env:
-  DEPLOY: ${{ inputs.deploy }}
+  DEPLOY: ${{ github.event.inputs.deploy || 'vielleicht' }}
   GIT_HASH: $(git rev-parse --short "$GITHUB_SHA")
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
     name: Job 1
     runs-on: ubuntu-latest
     env:
-      VARS_JSON: ${{ toJSON(vars) }}
+      VARS_JSON: ${{ toJSON(github) }}
     steps:
       - name: Code auschecken
         uses: actions/checkout@v4
