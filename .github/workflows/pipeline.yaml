@@ -20,22 +20,12 @@ jobs:
   prepare_env:
     name: Prepare Enviroment
     runs-on: ubuntu-latest
-    env:
-      VARS_JSON: ${{ toJSON(github) }}
     steps:
-      - name: Code auschecken
-        uses: actions/checkout@v4
       - name: Test
         shell: bash
         id: myvar
         run: |
-          echo ${{ inputs.deploy }}
-          if [ ${{ inputs.deploy }} ]; then
-            echo deploy=${{ inputs.deploy }} >> "$GITHUB_OUTPUT"
-          else 
-            echo deploy="weissnicht"
-          fi
-          echo ${VARS_JSON}
+          echo "deploy=${{ inputs.deploy || 'weissnicht'}}"" >> "$GITHUB_OUTPUT"
     outputs:
       deploy: ${{ steps.myvar.outputs.deploy }}
  
