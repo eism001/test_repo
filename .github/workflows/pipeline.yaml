@@ -30,6 +30,7 @@ jobs:
         run: |
           ls -la
           echo Deploy: ${{ inputs.deploy }}
+          echo Deploy: ${{ github.env.DEPLOY }}
           echo Deploy: ${DEPLOY}
           echo "${VARS_JSON}"
 
