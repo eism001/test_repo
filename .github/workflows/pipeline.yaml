@@ -35,7 +35,7 @@ jobs:
 
   Job_2:
     name: Job 2
-    if: ${{ github.env.DEPLOY == 'true' }}
+    if: ${{ env.DEPLOY == 'ja' }}
     runs-on: ubuntu-latest
     needs: [Job_1]
     steps:
@@ -45,6 +45,7 @@ jobs:
 
   Job_3:
     name: Job 3
+    if: ${{ !failure() && !cancelled() }}
     runs-on: ubuntu-latest
     needs: [Job_2]
     steps:
