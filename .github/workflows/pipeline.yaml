@@ -32,7 +32,7 @@ jobs:
           echo Deploy: ${{ inputs.deploy }}
           echo Deploy: ${{ github.env.DEPLOY }}
           echo Deploy: ${DEPLOY}
-          echo Deploy: ${DEPLOY} >> "$GITHUB_OUTPUT"
+          echo deploy2=${DEPLOY} >> "$GITHUB_OUTPUT"
           echo ${VARS_JSON}
  
   Job_2:
