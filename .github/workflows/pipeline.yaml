@@ -21,12 +21,18 @@ jobs:
   Job_1:
     name: Job 1
     runs-on: ubuntu-latest
+
+    steps:
+      - id: step1
+        run: echo "test=hello" >> "$GITHUB_OUTPUT"
+
     env:
       VARS_JSON: ${{ toJSON(github) }}
     steps:
       - name: Code auschecken
         uses: actions/checkout@v4
       - name: Test
+        id: myvar
         run: |
           ls -la
           echo Deploy: ${{ inputs.deploy }}
@@ -34,6 +40,8 @@ jobs:
           echo Deploy: ${DEPLOY}
           echo deploy2=${DEPLOY} >> "$GITHUB_OUTPUT"
           echo ${VARS_JSON}
+    outputs:
+      deploy2: ${{ steps.myvar.outputs.deploy2 }}
  
   Job_2:
     name: Job 2
@@ -43,9 +51,11 @@ jobs:
     steps:
       - name: Test
         env:
-          VARS_JSON: ${{ toJSON(github) }}
+          GITHUB_JSON: ${{ toJSON(github) }}
+          NEEDS_JSON: ${{ toJSON(needs) }}
         run: |
-          echo ${VARS_JSON}
+          echo ${GITHUB_JSON}
+          echo ${NEEDS_JSON}
 
   Job_3:
     name: Job 3
