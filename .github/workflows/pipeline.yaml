@@ -25,7 +25,7 @@ jobs:
         shell: bash
         id: myvar
         run: |
-          echo "deploy=${{ inputs.deploy || 'weissnicht'}}" >> "$GITHUB_OUTPUT"
+          echo "deploy=${{ inputs.deploy || 'ja'}}" >> "$GITHUB_OUTPUT"
     outputs:
       deploy: ${{ steps.myvar.outputs.deploy }}
  
