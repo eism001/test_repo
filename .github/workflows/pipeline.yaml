@@ -31,7 +31,7 @@ jobs:
         run: |
           echo ${{ inputs.deploy }}
           if [ ${{ inputs.deploy }} ]; then
-            echo deploy=${DEPLOY} >> "$GITHUB_OUTPUT"
+            echo deploy=${{ inputs.deploy }} >> "$GITHUB_OUTPUT"
           else 
             echo deploy="weissnicht"
           fi
