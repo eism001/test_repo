@@ -21,11 +21,6 @@ jobs:
   Job_1:
     name: Job 1
     runs-on: ubuntu-latest
-
-    steps:
-      - id: step1
-        run: echo "test=hello" >> "$GITHUB_OUTPUT"
-
     env:
       VARS_JSON: ${{ toJSON(github) }}
     steps:
