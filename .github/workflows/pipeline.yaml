@@ -15,97 +15,33 @@ env:
   DEPLOY: ${{ inputs.deploy || 'false' }}
   GIT_HASH: $(git rev-parse --short "$GITHUB_SHA")
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
-  oracle_start:
-    name: Prepare
-    container: docker:dind
-    runs-on: self-hosted
+  Job_1:
+    name: Job 1
+    runs-on: ubuntu-latest
     steps:
       - name: Code auschecken
         uses: actions/checkout@v4
       - name: Test
         run: |
           ls -la
-          echo Deploy: ${DEPLOY}
-          echo Hash: ${GIT_HASH}
-#      - name: Oracle
-#        run: |
-#          chmod +x .github/oracle_start_script18.sh && .github/oracle_start_script18.sh start
-#      - name: Set up mutex
-#        uses: ben-z/gh-action-mutex@v1.0.0
-#        with:
-#          branch: $GIT_HASH
-        
-  build_app:
-    name: Anwendung Bauen
-    container: gradle:7-jdk8
-    runs-on: self-hosted
-    needs: [oracle_start]
+          echo Deploy: ${{ github.env.DEPLOY }}
+
+  Job_2:
+    name: Job 2
+    if: ${{ github.env.DEPLOY == 'true' }}
+    runs-on: ubuntu-latest
+    needs: [Job_1]
     steps:
-      - name: Set up JDK 8
-        uses: actions/setup-java@v4
-        with:
-          java-version: '8'
-          distribution: 'temurin'
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
       - name: Test
         run: |
-          mkdir -p  test/report/
-          cp -R build/doc/junit/AllKasse20Tests/ test/report/
-          ls -la  test/report/
-      - name: Archive Test Results
-        uses: actions/upload-artifact@v4
-        with:
-          name: Test-Results
-          retention-days: 1
-          path: |
-              test/report/**/*.*
-          
-  
-  test_report:
+          ls -la
+
+  Job_3:
+    name: Job 3
     runs-on: ubuntu-latest
-    needs: [build_app]
-    permissions: write-all
+    needs: [Job_2]
     steps:
-      - name: Download a single artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: Test-Results
-      - name: Run git init
-        run: git init
       - name: Test
         run: |
-          ls -la 
-#      - name: Publish Test Report
-#        uses: mikepenz/action-junit-report@v5
-#        if: success() || failure() # always run even if the previous step fails
-#        with:
-#          report_paths: '**/TEST-*.xml' 
-
-      - name: Publish Test Report
-        if: success() || failure()
-        uses: scacap/action-surefire-report@v1
-        with:
-          report_paths: '**/TEST-*.xml' 
-
-#      - uses: dorny/test-reporter@v1
-#        with:
-#          artifact: test-results            # artifact name
-#          name: JUNIT Tests                  # Name of the check run which will be created
-#          path: '**/TEST-*.xml' 
-#          reporter: java-junit              # Format of test results
-
-  deploy:
-    runs-on: ubuntu-latest
-#    if: ${{ env.DEPLOY == 'true' }}
-    needs: [test_report]
-    steps:
-      - name: Deploy
-        run: |
-          echo "Deploy"
-        
+          ls -la
